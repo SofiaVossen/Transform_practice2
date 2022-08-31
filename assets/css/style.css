@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+#square{
+    height: 100px;
+    width: 100px;
+    background-color:lightcoral;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 10%;
+    transition: 1s;
+    transition-timing-function:ease;
+    cursor: pointer;
+}
+#square:hover{
+    transition: 1s;
+    transition-timing-function:ease-in-out;
+    transform:scale(1.8,1.8)rotate(90deg) translateX(50px);
+
+}
+#line{
+    background-color: greenyellow;
+    height:300px;
+    width:2px;
+    margin-top: 5%;
+}
